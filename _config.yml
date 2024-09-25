@@ -38,7 +38,7 @@ theme: minimal-mistakes-jekyll
 # Author settings (optional)
 author:
   name: "Sobha Hillview Apartment Owners Association"
-  avatar: "/assets/images/sobha-hillview-logo.png"
+  avatar: "/assets/images/sobha-hillview.png"
   bio: "Official website of Sobha Hillview Apartment Owners Association."
   links:
     - label: "Email"
