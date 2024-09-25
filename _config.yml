@@ -1,16 +1,12 @@
 # Site settings
 title: Sobha Hillview Apartment Owners Association
 description: Welcome to our community website.
-theme: just-the-docs
 
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
-
 
 # Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Markdown processing
-# markdown: md
