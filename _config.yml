@@ -1,0 +1,21 @@
+title: Sobha Hillview
+description: Welcome to the Sobha Hillview community website.
+theme: [jekyll] # Replace with your chosen theme, e.g., minima
+plugins:
+  - jekyll-feed
+
+# Custom CSS
+sass:
+  style: compressed
+
+include:
+  - assets/css/style.css
+navbar:
+  - name: Home
+    link: /
+  - name: Schools
+    link: /schools/
+  - name: Amenities
+    link: /amenities/
+  - name: Guidelines
+    link: /guidelines/
