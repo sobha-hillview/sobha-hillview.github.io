@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: About Sobha Hillview
 permalink: /about/
+nav_order: 2
 ---
 
 # About Sobha Hillview
