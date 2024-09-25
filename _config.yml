@@ -5,8 +5,4 @@ description: Welcome to our community website.
 # Build settings
 remote_theme: mmistakes/minimal-mistakes
 
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
 
