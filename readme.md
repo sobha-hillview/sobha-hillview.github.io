@@ -5,7 +5,7 @@ title: Sobha Hillview Apartment Owners Association
 
 # Welcome to Sobha Hillview
 
-![Sobha Hillview Entrance](/assets/images/sobha-hillview.jpg)
+![Sobha Hillview Entrance](/assets/images/sobha-hillview.png)
 
 **Sobha Hillview Apartment Owners Association** is a vibrant residential community located in the serene neighborhood of Uttarahalli Manavarthekaval Village, off Kanakpura Road in Bengaluru.
 
