@@ -1,6 +1,8 @@
 ---
-layout: home
+layout: default
 title: Sobha Hillview Apartment Owners Association
+permalink: /Home/
+nav_order: 1
 ---
 
 # Welcome to Sobha Hillview
