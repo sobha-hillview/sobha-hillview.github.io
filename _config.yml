@@ -4,19 +4,8 @@ description: Welcome to our community website.
 theme: just-the-docs
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+remote_theme: mmistakes/minimal-mistakes
 
-# Enable search and other theme options
-just_the_docs:
-  logo: /assets/images/sobha-hillview.png # Optional: Add a logo
-  search_enabled: true
-  # Set the base URL for your site
-  url: https://sobha-hillview.github.io
-  baseurl: "" # Leave empty unless your site is in a subdirectory
-
-# Exclude files or directories from processing
-exclude:
-  - index.md
 
 # Plugins
 plugins:
