@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Daily Help Services
 permalink: /daily-help/
+nav_order: 4
 ---
 
 # Daily Help Services

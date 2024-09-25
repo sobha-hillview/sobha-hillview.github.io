@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Nearby Parks
 permalink: /nearby-parks/
+nav_order: 6
 ---
 
 # Parks Near Sobha Hillview

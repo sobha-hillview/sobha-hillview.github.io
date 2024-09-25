@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Location
 permalink: /location/
+nav_order: 8
 ---
 
 # Our Location

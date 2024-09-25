@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Contact Us
 permalink: /contact/
+nav_order: 9
 ---
 
 # Contact Us

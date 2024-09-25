@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Nearby Banks
 permalink: /nearby-banks/
+nav_order: 7
 ---
 
 # Banks Near Sobha Hillview

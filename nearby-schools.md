@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Nearby Schools
 permalink: /nearby-schools/
+nav_order: 5
 ---
 
 # Schools Near Sobha Hillview

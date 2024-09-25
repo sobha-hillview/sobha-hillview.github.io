@@ -1,51 +1,27 @@
 # Site settings
 title: Sobha Hillview Apartment Owners Association
 description: Welcome to our community website.
-url: https://sobha-hillview.github.io
-baseurl: "" # Leave this empty unless your site is in a subdirectory
+theme: just-the-docs
 
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+# Build settings
+remote_theme: pmarsceill/just-the-docs
 
-# Navigation links
-navigation:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Amenities"
-    url: "/amenities/"
-  - title: "Security"
-    url: "/security/"
-  - title: "Daily Help"
-    url: "/daily-help/"
-  - title: "Schools"
-    url: "/nearby-schools/"
-  - title: "Parks"
-    url: "/nearby-parks/"
-  - title: "Banks"
-    url: "/nearby-banks/"
-  - title: "Location"
-    url: "/location/"
-  - title: "Contact"
-    url: "/contact/"
-
-sass:
-  sass_dir: _sass
-
-# Social media links (optional)
-social_links:
-  - name: "Facebook"
-    url: "https://www.facebook.com/sobha-hillview"
-  - name: "Twitter"
-    url: "https://twitter.com/sobha-hillview"
+# Enable search and other theme options
+just_the_docs:
+  logo: /assets/images/sobha-hillview.png # Optional: Add a logo
+  search_enabled: true
+  # Set the base URL for your site
+  url: https://sobha-hillview.github.io
+  baseurl: "" # Leave empty unless your site is in a subdirectory
 
 # Exclude files or directories from processing
 exclude:
   - README.md
 
-# Optional settings
-# Uncomment and set if needed
-# paginate: 5
-# paginate_path: "/page:num/"
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Markdown processing
+markdown: kramdown

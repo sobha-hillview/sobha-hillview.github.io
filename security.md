@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Security Measures
 permalink: /security/
+nav_order: 3
 ---
 
 # Security at Sobha Hillview
