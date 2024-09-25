@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 title: Amenities
 permalink: /amenities/
+nav_order: 2
 ---
 
 # Amenities at Sobha Hillview
