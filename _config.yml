@@ -1,8 +1,56 @@
 # Site settings
-title: Sobha Hillview Apartment Owners Association
-description: Welcome to our community website.
+title: "Sobha Hillview Apartment Owners Association"
+description: "Welcome to our community website."
+url: "https://sobha-hillview.github.io"
+baseurl: "" # Leave empty unless your site is in a subdirectory
 
 # Build settings
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 
+# Navigation links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Amenities"
+    url: "/amenities/"
+  - title: "Security"
+    url: "/security/"
+  - title: "Daily Help"
+    url: "/daily-help/"
+  - title: "Nearby Facilities"
+    url: "/nearby/"
+  - title: "Location"
+    url: "/location/"
+  - title: "Contact"
+    url: "/contact/"
 
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Theme settings
+theme: minimal-mistakes-jekyll
+
+# Author settings (optional)
+author:
+  name: "Sobha Hillview Apartment Owners Association"
+  avatar: "/assets/images/sobha-hillview-logo.png"
+  bio: "Official website of Sobha Hillview Apartment Owners Association."
+  links:
+    - label: "Email"
+      url: "mailto:contact@sobha-hillview.com"
+    - label: "Phone"
+      url: "tel:+91XXXXXXXXXX"
+
+# Other settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true

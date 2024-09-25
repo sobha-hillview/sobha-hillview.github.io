@@ -1,0 +1,7 @@
+amenities:
+  - title: "Amenities"
+    url: "/amenities/"
+  - title: "Sports Facilities"
+    url: "/amenities/#sports-facilities"
+  - title: "Outdoor Facilities"
+    url: "/amenities/#outdoor-facilities"
