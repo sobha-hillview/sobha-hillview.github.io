@@ -15,8 +15,8 @@ just_the_docs:
   baseurl: "" # Leave empty unless your site is in a subdirectory
 
 # Exclude files or directories from processing
-# exclude:
-  # - README.md
+exclude:
+  - index.md
 
 # Plugins
 plugins:
