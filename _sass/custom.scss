@@ -1,0 +1,17 @@
+// Import the original theme styles
+@import "jekyll-theme-cayman";
+
+// Your custom styles
+body {
+  font-family: 'Arial, sans-serif';
+}
+
+/* Customize header background color */
+.site-header {
+  background-color: #004080;
+}
+
+/* Customize navigation link color */
+.site-nav a {
+  color: #ffffff;
+}

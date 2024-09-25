@@ -1,21 +1,57 @@
-title: Sobha Hillview
-description: Welcome to the Sobha Hillview community website.
-theme: [jekyll] # Replace with your chosen theme, e.g., minima
+# Site settings
+title: Sobha Hillview Apartment Owners Association
+description: Welcome to our community website.
+url: https://sobha-hillview.github.io
+baseurl: "" # Leave this empty unless your site is in a subdirectory
+
+# Build settings
+theme: jekyll-theme-cayman
+
+# Navigation links
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Amenities"
+    url: "/amenities/"
+  - title: "Security"
+    url: "/security/"
+  - title: "Daily Help"
+    url: "/daily-help/"
+  - title: "Schools"
+    url: "/nearby-schools/"
+  - title: "Parks"
+    url: "/nearby-parks/"
+  - title: "Banks"
+    url: "/nearby-banks/"
+  - title: "Location"
+    url: "/location/"
+  - title: "Contact"
+    url: "/contact/"
+
+sass:
+  sass_dir: _sass
+
+# Social media links (optional)
+social_links:
+  - name: "Facebook"
+    url: "https://www.facebook.com/sobha-hillview"
+  - name: "Twitter"
+    url: "https://twitter.com/sobha-hillview"
+
+# Plugins
 plugins:
   - jekyll-feed
 
-# Custom CSS
-sass:
-  style: compressed
+# Exclude files or directories from processing
+exclude:
+  - README.md
 
-include:
-  - assets/css/style.css
-navbar:
-  - name: Home
-    link: /
-  - name: Schools
-    link: /schools/
-  - name: Amenities
-    link: /amenities/
-  - name: Guidelines
-    link: /guidelines/
+# Markdown processing
+markdown: kramdown
+
+# Optional settings
+# Uncomment and set if needed
+# paginate: 5
+# paginate_path: "/page:num/"
