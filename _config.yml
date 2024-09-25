@@ -41,16 +41,9 @@ social_links:
   - name: "Twitter"
     url: "https://twitter.com/sobha-hillview"
 
-# Plugins
-plugins:
-  - jekyll-feed
-
 # Exclude files or directories from processing
 exclude:
   - README.md
-
-# Markdown processing
-markdown: kramdown
 
 # Optional settings
 # Uncomment and set if needed
